@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   dropdownContainer.addEventListener("mouseleave", () => {
     desktopTimeout = setTimeout(() => {
       dropdownMenu.style.display = "none"
-    }, 5000) // 1 second delay to hide dropdown
+    }, 1000) // 1 second delay to hide dropdown
   })
 
   // Mobile menu toggle (hamburger) - COMPLETELY REWRITTEN
@@ -298,5 +298,7 @@ document.addEventListener('DOMContentLoaded', function () {
             button.textContent = "Read less";
         }
     }
+
+
 
 

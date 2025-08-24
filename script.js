@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
         mobileSubmenu.style.display = "none"
         arrowIcon.innerHTML = "&#9662;" // Down arrow
         console.log("Submenu auto-closed")
-      }, 1000)
+      }, 5000)
     } else {
       // Hide submenu
       mobileSubmenu.style.display = "none"
